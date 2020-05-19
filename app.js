@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-golee:test1234@cluster0-eiivl.mongodb.net/blogDB", {
+mongoose.connect("--/blogDB", {
   useNewUrlParser: true
 });
 
